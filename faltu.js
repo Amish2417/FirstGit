@@ -11,6 +11,7 @@ console.log(document.forms);
 console.log(document.links);
 console.log(document.images);
 var headertitle = document.getElementById("header-title");
+console.log("Hii");
 //console.log(headertitle);
 //headertitle.textContent = "Hello";
 //headertitle.innerText = "GoodBye"
