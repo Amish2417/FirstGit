@@ -27,4 +27,7 @@ item3[2].style.backgroundColor="green";
 for(let i=0;i<item3.length;i++){
     item3[i].style.fontWeight="bold";
 }
+var li=document.createElement('li');
+console.log(li);
+li.innerText="Item 5"
 
