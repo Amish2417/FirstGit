@@ -29,6 +29,14 @@
     </ul>
    </div>
   </div>
+  <script>
+    var li=document.createElement("li");
+    li.innerHTML="Item 5";
+    console.log(li);
+    var ul=document.getElementsByClassName("list-group");
+    console.log(ul)
+    ul[1].append("li");
+  </script>
 
 </body>
 </html>
